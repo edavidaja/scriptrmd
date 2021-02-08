@@ -1,0 +1,13 @@
+---
+title: "scriptrmd"
+output: md_document
+---
+
+Execute your existing R scripts within an Rmarkdown document
+
+```{r, echo=FALSE}
+fs::dir_tree(recurse = 1)
+```
+
+`script.Rmd` calls and executes `script.R`, making it easy to deploy scripts to Connect without needing to modify them.
+

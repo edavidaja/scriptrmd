@@ -4,7 +4,7 @@
   "platform": "4.0.3",
   "metadata": {
     "appmode": "rmd-static",
-    "primary_rmd": "script.Rmd",
+    "primary_rmd": "README.Rmd",
     "primary_html": null,
     "content_category": null,
     "has_parameters": false
@@ -490,6 +490,38 @@
         "Repository": "RSPM",
         "Date/Publication": "2020-01-16 13:40:07 UTC",
         "Built": "R 4.0.3; x86_64-apple-darwin17.0; 2020-12-03 14:29:45 UTC; unix"
+      }
+    },
+    "fs": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "fs",
+        "Title": "Cross-Platform File System Operations Based on 'libuv'",
+        "Version": "1.5.0",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", email = \"james.f.hester@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\n    person(\"libuv project contributors\", role = \"cph\", comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\", comment = \"libuv library\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Description": "A cross-platform interface to file system operations, built on\n  top of the 'libuv' C library.",
+        "Depends": "R (>= 3.1)",
+        "License": "GPL-3",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "ByteCompile": "true",
+        "Imports": "methods",
+        "SystemRequirements": "GNU make",
+        "RoxygenNote": "7.1.1",
+        "URL": "http://fs.r-lib.org, https://github.com/r-lib/fs",
+        "BugReports": "https://github.com/r-lib/fs/issues",
+        "Copyright": "file COPYRIGHTS",
+        "Suggests": "testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon,\nrmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)",
+        "VignetteBuilder": "knitr",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-07-31 21:00:55 UTC; jhester",
+        "Author": "Jim Hester [aut, cre],\n  Hadley Wickham [aut],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  RStudio [cph, fnd]",
+        "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
+        "Repository": "RSPM",
+        "Date/Publication": "2020-07-31 21:30:03 UTC",
+        "Built": "R 4.0.3; x86_64-apple-darwin17.0; 2020-12-03 14:41:12 UTC; unix"
       }
     },
     "ggplot2": {
@@ -1712,6 +1744,9 @@
     "packrat/desc/farver": {
       "checksum": "3671fcaba9ba9afc33ab43fc315ec59e"
     },
+    "packrat/desc/fs": {
+      "checksum": "9b659aec4e31d0ec07f6235fcbbe37b6"
+    },
     "packrat/desc/ggplot2": {
       "checksum": "019f63fb2c07d1880c779b42831d89aa"
     },
@@ -1854,10 +1889,13 @@
       "checksum": "cccedf9b5ac2f09718e3d719f2947e28"
     },
     "packrat/packrat.lock": {
-      "checksum": "9a7dd1e46b2ce52d312ac82a4cd108ab"
+      "checksum": "2654151e2ca8c8582f8c13c5cbbfc0d2"
     },
-    "script.html": {
-      "checksum": "d7e4a878f467348c487a155893984953"
+    "README.md": {
+      "checksum": "9e47a29069aa892c4963b2f66bd4e0f7"
+    },
+    "README.Rmd": {
+      "checksum": "7a2c524dcbfd46e8bdcee8adb11b3060"
     },
     "script.R": {
       "checksum": "b3134c3440d02dbaa662a1cb753b3d30"
